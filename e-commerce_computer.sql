@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Aug 05, 2016 at 06:26 AM
+-- Generation Time: Aug 05, 2016 at 09:22 AM
 -- Server version: 10.0.17-MariaDB
 -- PHP Version: 5.6.14
 
@@ -1010,9 +1010,9 @@ CREATE TABLE `oc_currency` (
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'Pound Sterling', 'GBP', '£', '', '2', 0.61250001, 1, '2014-09-25 14:40:00'),
-(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2014-09-25 14:40:00'),
-(3, 'Euro', 'EUR', '', '€', '2', 0.78460002, 1, '2014-09-25 14:40:00');
+(1, 'Pound Sterling', 'GBP', '£', '', '2', 0.76160002, 1, '2016-08-05 09:20:09'),
+(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2016-08-05 09:20:09'),
+(3, 'Euro', 'EUR', '', '€', '2', 0.89770001, 1, '2016-08-05 09:20:09');
 
 -- --------------------------------------------------------
 
@@ -3380,7 +3380,7 @@ CREATE TABLE `oc_user` (
 --
 
 INSERT INTO `oc_user` (`user_id`, `user_group_id`, `username`, `password`, `salt`, `firstname`, `lastname`, `email`, `image`, `code`, `ip`, `status`, `date_added`) VALUES
-(1, 1, 'admin', '17026844d415665ead07baa5b99de21ab8ff0ceb', 'hqb5gxIda', 'John', 'Doe', 'thailinh0612@gmail.com', '', '', '', 1, '2016-08-05 11:26:02');
+(1, 1, 'admin', '17026844d415665ead07baa5b99de21ab8ff0ceb', 'hqb5gxIda', 'John', 'Doe', 'thailinh0612@gmail.com', '', '', '::1', 1, '2016-08-05 11:26:02');
 
 -- --------------------------------------------------------
 
